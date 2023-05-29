@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pic{
+    position: relative;
+    top: -150px;
+    right: -390px;
+    width: 600px;
+    height: 600px;
+}
+
+.texts .text{
+    position: relative;
+    color: red;
+    top: 10px;
+    font-size: 70px;
+    right: -200px;
+}
+
+.texts{
+    position: relative;
+    left: -390px;
+    color: white;
+    bottom: -250px;
+    font-size: 75px;
+    font-family: 'Lobster Two', cursive;
+}
+
+.country{
+    color: white;
+    position: relative;
+    left: -490px;
+    font-size: 60px;
+    bottom: -250px;
+    font-family: 'Playball', cursive;
+}
+
+.linkedin{
+    position: relative;
+    left: -560px;
+    color: #fff;
+    font-size: 30px;
+    bottom: -270px;
+}
+
+.insta{
+    position: relative;
+    left: -530px;
+    color: #fff;
+    font-size: 30px;
+    bottom: -270px;
+}
+
+.git{
+    position: relative;
+    left: -490px;
+    color: #fff;
+    font-size: 30px;
+    bottom: -270px;
+}
+
+.blog-title-emoji {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+.software{
+    position: relative;
+    left: -490px;
+    color: white;
+    bottom: -250px;
+    font-size: 30px;
+}
+
+@keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    15% {
+      transform: rotate(14deg);
+    }
+    30% {
+      transform: rotate(-8deg);
+    }
+    40% {
+      transform: rotate(14deg);
+    }
+    50% {
+      transform: rotate(-4deg);
+    }
+    60% {
+      transform: rotate(10deg);
+    }
+    70% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+}
